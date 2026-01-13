@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription en ligne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+        <span></span><span></span><span></span>
+    </label>
+
+    <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="inscription.html">Inscription en ligne</a></li>
+        <li><a href="services.html">Services organisés</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>FICHE D’INSCRIPTION</h2>
+
+    <form action="https://formsubmit.co/henrkabeya26@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="merci.html">
+        <input type="hidden" name="_captcha" value="false">
+
+        <input type="text" name="Nom" placeholder="Nom" required>
+        <input type="text" name="Post-nom" placeholder="Post-nom" required>
+        <input type="text" name="Prénom" placeholder="Prénom" required>
+        <input type="text" name="Lieu de naissance">
+        <input type="date" name="Date de naissance">
+        <input type="text" name="Province">
+
+        <select name="Formation" required>
+            <option value="">-- Choisir une formation --</option>
+            <option>Installation des systèmes de surveillance</option>
+            <option>Création de réseaux professionnels pour les PME</option>
+            <option>Maintenance informatique</option>
+            <option>Installation des systèmes d’exploitation</option>
+            <option>Formation CCNA</option>
+            <option>Bureautique</option>
+        </select>
+
+        <input type="email" name="Email" placeholder="Email" required>
+        <input type="tel" name="Téléphone">
+
+        <button type="submit">ENVOYER</button>
+    </form>
+</div>
+
+<a href="https://wa.me/243970710710" class="whatsapp" target="_blank">💬 WhatsApp</a>
+
+</body>
+</html>
